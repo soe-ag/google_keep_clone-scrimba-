@@ -1,4 +1,3 @@
-# c7PRzwAp
 
 Quick start:
 
@@ -18,7 +17,7 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [The Frontend Career Path](https://scrimba.com/learn/frontend)
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
-Happy Coding!
+
 # google_keep_clone-scrimba-
 
 practice tutorial from scrimba JS deepdive
