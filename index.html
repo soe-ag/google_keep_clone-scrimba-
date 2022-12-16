@@ -1,0 +1,45 @@
+<html>
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap"></link>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-content">
+        <input type="text" class="modal-title" placeholder="Title">
+        <input type="text" class="modal-text" placeholder="Take a note...">
+        <span class="modal-close-button">Close</span>
+      </div>
+    </div>
+    <main>
+      <header>
+        <img class="header-logo" src="https://img.icons8.com/color/96/null/google-keep.png">
+        <h2 class="header-title">Keep Clone</h2>
+      </header>
+      <div id="form-container">
+        <form id="form" autocomplete="off">
+          <input id="note-title" placeholder="Title" type="text">
+          <input id="note-text" placeholder="Take a note..." type="text">
+          <div id="form-buttons">
+            <button type="submit" id="submit-button">Submit</button>
+            <button type="button" id="form-close-button">Close</button>
+          </div>
+        </form>
+      </div>
+      <div id="notes"></div>
+      <div id="placeholder">
+        <img id="placeholder-logo" src="https://img.icons8.com/bubbles/50/null/google-logo.png">
+        <p id="placeholder-text">Notes you add appear here</p>
+      </div>
+      <div id="color-tooltip">
+        <div class="color-option" data-color="#fff" id="white"></div>
+        <div class="color-option" data-color="#d78efb" id="purple"></div>
+        <div class="color-option" data-color="#febc04" id="orange"></div>
+        <div class="color-option" data-color="#a7ffeb" id="teal"></div>
+      </div>
+    </main>
+    <script src="app_practice.js"></script>
+  </body>
+</html>
+
+<!-- https://google.com/keep -->
