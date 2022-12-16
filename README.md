@@ -20,3 +20,5 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 
 Happy Coding!
 # google_keep_clone-scrimba-
+
+practice tutorial from scrimba JS deepdive
